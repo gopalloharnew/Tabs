@@ -44,6 +44,7 @@ body{
     background-color: hsl(0, 0%, 80%);
     position: absolute;
     top: 54px;
+    transition: 100ms;
 }
 
 h2,p{
@@ -52,4 +53,9 @@ h2,p{
 
 .tab{
     padding: 30px;
+    display: none;
+}
+
+.active{
+    display: block !important;
 }
