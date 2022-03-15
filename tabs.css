@@ -45,6 +45,7 @@ body{
     position: absolute;
     top: 54px;
     transition: 100ms;
+    opacity: 0;
 }
 
 h2,p{
